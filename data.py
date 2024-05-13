@@ -17,3 +17,5 @@ class ScooterUrl:
 
     URL_DZEN = 'https://dzen.ru/'
     URL_MAIN = 'https://qa-scooter.praktikum-services.ru/'
+
+
