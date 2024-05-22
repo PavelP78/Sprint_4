@@ -2,8 +2,6 @@ import pytest
 from selenium import webdriver
 from data import ScooterUrl as Url
 
-
-
 @pytest.fixture
 def driver():
      driver = webdriver.Firefox()
@@ -16,4 +14,6 @@ def driver():
      yield driver
 
      driver.quit()
+
+
 
